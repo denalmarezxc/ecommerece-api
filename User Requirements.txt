@@ -1,0 +1,50 @@
+REGULAR USER
+email : person2@mail.com
+password: person123
+
+this token is for our checking purposes only.
+token: 
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2RiYzllODE1NzU1MDQ5ZGEwNGU4NiIsImVtYWlsIjoicGVyc29uMkBtYWlsLmNvbSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE3MzIxNDkzMzAsImV4cCI6MTczMjIzNTczMH0.8ZjWglzT6vs07fAJzBfNHgr2QTDWoU7z3ekHfX_TnnQ
+
+
+
+ADMIN USER
+email : admin@mail.com
+password: admin123
+
+this token is for our checking purposes only.
+token: 
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3M2Q0ZjgwZGExMjg3MGY5NjA3MWY0ZSIsImVtYWlsIjoiYWRtaW5AbWFpbC5jb20iLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MzIwNzE1MTQsImV4cCI6MTczMjE1NzkxNH0.s0575ssyDinOe3wQrSxeGuJECuv6tFEtJdDmFlKRbDA
+
+
+---------------------------------------------------------------
+=====ORDERS=====
+To retrieve the user/customer orders, the user/customer should login first and get provided token and paste it to postman requests: 
+
+GET retrieve-user-orders
+		Auth Type>Bearer Token>Token
+
+To get all orders (admin), provide an admin token by logging in an admin-user and paste it to postman:
+GET all-orders
+		Auth Type>Bearer Token>Token
+
+---------------------------------------------------------------
+
+=====CART=====
+To use the following requests,
+
+get-user-cart
+add-to-cart
+change-item-quantity
+remove-item
+clear-cart
+
+in CART folder in POSTMAN
+
+The user/customer should login first -> get the token -> paste the token to ->  Auth Type>Bearer Token>Token
+
+
+
+

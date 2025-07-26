@@ -28,7 +28,7 @@ app.use(express.urlencoded({extended: true}));
 
 
 const corsOptions = {
-	origin: ['http://localhost:3000'],
+	origin: ['http://localhost:3000', 'https://smartbuyecommerce.vercel.app'],
 	// methods: ['GET'] //allow only specified HTTP methods //optional only if you want to restrict methods
 	// allowHeaders: ['Content-Type', "Authorization"], //allow specified
 	credentials: true, //allow credentials example cookis, authorization headers
